@@ -1,6 +1,6 @@
 # Kickstarter Data Analysis  
 
-Interactive dashboard that displays charts and text from a JSON file. View the final product [here](https://klbowman.github.io/microbiome-dashboard/).
+Data analysis and visualization using charts and pivot tables.
 
 ## Description
 
