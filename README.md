@@ -4,19 +4,20 @@ Data analysis and visualization using charts and pivot tables.
 
 ## Description
 
-This repository is designed to uncover market trends by analyzing and visualizing data from 4,000 Kickstarter projects. On the “Data” tab, conditional formatting is used in the “State” column to color code projects as successful (green), failed (red), canceled (yellow), or live (grey). 
-
-The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
-* Bar graph displaying the top 10 OTUs by count
-* Gauge plot showing the belly button scrubs per week
-* Bubble plot displaying OTU counts for the entire sample
-
+This repository is designed to uncover market trends by analyzing and visualizing data from 4,000 Kickstarter projects. 
+- On the **Data** tab, conditional formatting is used in the State column to color code projects as successful (green), failed (red), canceled (yellow), or live (grey). 
+- The Percent Funded column uses a formula to uncover how much money a campaign made to reach its initial goal, and conditional formatting is used to color code funding amounts (0-99; red, 100-199; green, 200; blue).
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615550-98e49162-44c9-4e39-9050-ba837dc42863.png" alt="Dashboard Image"/>
+  <img src="https://user-images.githubusercontent.com/74067302/146103340-29efbfab-be63-4fef-a516-22c16e8d376d.png" alt="Dashboard Image"/>
 </p>
+- The Average Donation uses a formula to uncover how much each backer for the project paid on average.
+- The Category and Sub-Category columns use formulas to split the "Category and Sub-Category" column into two parts.
+- The **Pivot 1_Category** sheet contains a pivot table that analyzes the **Data** worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category. This stacked column pivot chart can be filtered by country.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615561-5fc19f35-646b-47aa-9f63-4a93a495efe5.png" alt="Dashboard Image"/>
+  <img src="https://user-images.githubusercontent.com/74067302/146103546-87260a18-21d7-4b89-923b-cc47ab3e095c.png" alt="Dashboard Image"/>
 </p>
+
+
 
 ## Getting Started
 
