@@ -31,6 +31,14 @@ This repository is designed to uncover market trends by analyzing and visualizin
   <img src="https://user-images.githubusercontent.com/74067302/146104544-17c9e503-a770-4b64-a71a-2ee1981f542e.png" alt="Dashboard Image"/>
 </p>
 
+### Bonus tab
+- This sheet uses formulas to calculate the number and percentage of projects that were successful, failed, or canceled, and the total number of projects for 12 monetary goals. 
+- The line chart graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/146105322-519bb1d6-40da-4ad7-ba08-6bff8f1ef527.png" alt="Dashboard Image"/>
+</p>
+
+
 
 
 
