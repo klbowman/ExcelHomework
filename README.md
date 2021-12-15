@@ -7,7 +7,7 @@ Data analysis and visualization using charts and pivot tables in Excel.
 This repository is designed to uncover market trends by analyzing and visualizing data from 4,000 Kickstarter projects. 
 ### Data tab
 - Conditional formatting is used in the **State** column to color code projects as successful (green), failed (red), canceled (yellow), or live (grey). 
-- The **Percent Funded** column uses a formula to uncover how much money a campaign made to reach its initial goal, and conditional formatting is used to color code funding amounts (0-99; red, 100-199; green, 200; blue).
+- The **Percent Funded** column uses a formula to uncover how much money a campaign made to reach its initial goal, and conditional formatting is used to color code funding amounts (0-99; red, 100-199; green, >200; blue).
 - The **Average Donation** column uses a formula to uncover how much each backer for the project paid on average.
 - The **Category** and **Sub-Category** columns use formulas to split the **Category and Sub-Category** column into two parts.
 - The **Date Created Conversion** column uses a formula to convert the Unix timestamp data in the **launched_at** column into Excel's date format.
@@ -32,7 +32,7 @@ This repository is designed to uncover market trends by analyzing and visualizin
 </p>
 
 ### Bonus tab
-- This sheet uses formulas to calculate the number and percentage of projects that were successful, failed, or canceled, and the total number of projects for 12 monetary goals. 
+- This sheet uses formulas to calculate the number and percentage of projects that were successful, failed, or canceled, and the total number of projects for 12 ranges of monetary goals. 
 - The line chart graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146105322-519bb1d6-40da-4ad7-ba08-6bff8f1ef527.png" alt="Dashboard Image"/>
@@ -53,7 +53,8 @@ This repository is designed to uncover market trends by analyzing and visualizin
 ### Conclusions
 - The majority of successful Kickstarter campaigns are in theater, music, film & video categories. 
 - The greatest number of successful Kickstarter campaigns were launched during the month of May. 
-- The following subcategories have a 100% success rate: classical music, documentary, electronic music, hardware, metal, nonfiction, pop, radio & podcasts, rock, shorts, small batch, tabletop games, television. The following subcategories have a 100% failure rate: animation, children's books, drama, fiction, food trucks, gadgets, jazz, mobile games, people, places, restaurants, translation, video games, web.
+- The following subcategories have a 100% success rate: classical music, documentary, electronic music, hardware, metal, nonfiction, pop, radio & podcasts, rock, shorts, small batch, tabletop games, television. 
+- The following subcategories have a 100% failure rate: animation, children's books, drama, fiction, food trucks, gadgets, jazz, mobile games, people, places, restaurants, translation, video games, web.
 
 ### Limitations
 - The data in these plots is not normalized to reflect the proportion of successful and failed accounts relative to the total number of accounts. Some categories may have a greater number of successful accounts due to a higher number of submissions, rather than a higher funding success rate.
