@@ -4,7 +4,7 @@ Data analysis and visualization using charts and pivot tables.
 
 ## Description
 
-This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
+This repository is designed to uncover market trends by analyzing and visualizing data from 4,000 Kickstarter projects. On the “Data” tab, conditional formatting is used in the “State” column to color code projects as successful (green), failed (red), canceled (yellow), or live (grey). 
 
 The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
 * Bar graph displaying the top 10 OTUs by count
