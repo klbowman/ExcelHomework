@@ -10,15 +10,23 @@ This repository is designed to uncover market trends by analyzing and visualizin
 - The **Percent Funded** column uses a formula to uncover how much money a campaign made to reach its initial goal, and conditional formatting is used to color code funding amounts (0-99; red, 100-199; green, 200; blue).
 - The **Average Donation** column uses a formula to uncover how much each backer for the project paid on average.
 - The **Category** and **Sub-Category** columns use formulas to split the **Category and Sub-Category** column into two parts.
+- The **Date Created Conversion** column uses a formula to convert the Unix timestamp data in the **launched_at** column into Excel's date format.
+- The **Date Ended Conversion** column uses a formula to convert the Unix timestamp data in the **deadline** column into Excel's date format.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146103340-29efbfab-be63-4fef-a516-22c16e8d376d.png" alt="Dashboard Image"/>
 </p>
 
 ### Pivot 1_Category tab
-- This sheet contains a pivot table that analyzes the **Data** worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category. This stacked column pivot chart can be filtered by country.
+- This sheet contains a pivot table that analyzes the **Data** worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category. The stacked column pivot chart can be filtered by country.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146103546-87260a18-21d7-4b89-923b-cc47ab3e095c.png" alt="Dashboard Image"/>
 </p>
+
+### Pivot 2_Subcategory tab
+- This sheet contains a pivot table that analyzes the **Data** worksheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category. The stacked column pivot chart can be filtered by country and parent-category.
+- The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
+
+
 
 
 
