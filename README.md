@@ -38,9 +38,15 @@ This repository is designed to uncover market trends by analyzing and visualizin
   <img src="https://user-images.githubusercontent.com/74067302/146105322-519bb1d6-40da-4ad7-ba08-6bff8f1ef527.png" alt="Dashboard Image"/>
 </p>
 
-
-
-
+### Statistical Analysis tab
+- This sheet displays the number of backers of successful and unsuccessful campaigns.
+- Formulas are used to evaluate the following for successful campaigns and unsuccessful campaigns:
+  - The mean number of backers.
+  - The median number of backers.
+  - The minimum number of backers.
+  - The maximum number of backers.
+  - The variance of the number of backers.
+  - The standard deviation of the number of backers.
 
 ## Getting Started
 
@@ -51,11 +57,11 @@ This repository is designed to uncover market trends by analyzing and visualizin
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the home directory and open index.html in your browser.
+* Navitage to the home directory and open DataAnalysis.xlsx.
 
 ### Data Sources
 
-* Hulcr J, Latimer AM, Henley JB, Rountree NR, Fierer N, et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. PLoS ONE 7(11): e47712. doi:10.1371/journal.pone.0047712 [Access Data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+* Web Roots: Kickstarter Datasets [Access Data](https://webrobots.io/kickstarter-datasets/)
 
 
 ## Authors
