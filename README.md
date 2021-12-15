@@ -48,6 +48,17 @@ This repository is designed to uncover market trends by analyzing and visualizin
   - The variance of the number of backers.
   - The standard deviation of the number of backers.
 
+## Insights from Data Analysis
+
+### Conclusions
+- The majority of successful Kickstarter campaigns are in theater, music, film & video categories. 
+- The greatest number of successful Kickstarter campaigns were launched during the month of May. 
+- The following subcategories have a 100% success rate: classical music, documentary, electronic music, hardware, metal, nonfiction, pop, radio & podcasts, rock, shorts, small batch, tabletop games, television. The following subcategories have a 100% failure rate: animation, children's books, drama, fiction, food trucks, gadgets, jazz, mobile games, people, places, restaurants, translation, video games, web.
+
+### Limitations
+- The data in these plots is not normalized to reflect the proportion of successful and failed accounts relative to the total number of accounts. Some categories may have a greater number of successful accounts due to a higher number of submissions, rather than a higher funding success rate.
+- This data analysis does not take into consideration other factors, such as funding goal and the number of backers, that may affect the outcome of the account.
+
 ## Getting Started
 
 ### Technologies Used 
